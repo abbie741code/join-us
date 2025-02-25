@@ -1,0 +1,421 @@
+html,
+body {
+  /* height: 100%;
+  margin: 0; */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+@media (min-width: 992px) {
+  .nav-ms {
+    margin-left:25%;
+  }
+}
+
+
+
+
+.btn-outline-light:hover {
+  background-color: #fff; /* 修改背景顏色 */
+  color: #000; /* 修改文字顏色 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加陰影效果 */
+  transform: scale(1.1);
+}
+
+.btn-outline-light {
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  transform: scale(1.1);
+}
+
+.nav-bg {
+  background-image: url(../images/nav-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 14vh; */
+  /* z-index: 999; */
+}
+
+@media (max-width: 767px) {
+  /* .nav-bg {
+    height: 24vh;
+  } */
+}
+
+/* .banner-bg {
+  margin-top: calc(14vh - 3px);
+} */
+
+/* @media (max-width: 767px) {
+  .banner-bg {
+    margin-top: calc(21vh - 3px);
+  }
+} */
+
+.navbar-dark .navbar-nav .nav-link , .bg-dark{
+  color:#ffb71b !important;
+  background-color: #000000  !important;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+.banner-bg {
+  /* background-image: url(../images/banner-bg.png); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 40vh; */
+  color: #ffb71b;
+  text-align: center;
+  padding: 40px; /* Adjust padding as needed */
+}
+
+.ansys2024-logo {
+  width: 350px;
+}
+
+@media (max-width: 767px) {
+  .ansys2024-phone img {
+    width: 60%;
+  }
+}
+
+.banner-text-w {
+  max-width: 500px;
+  margin: 1% 0;
+}
+
+.ansys-icon img {
+  width: 40px;
+}
+
+@media (max-width: 767px) {
+  .ansys-icon img {
+    width: 30px;
+  }
+}
+
+.scroll-nav a {
+  margin: 5px 15px 0px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffb71b;
+}
+
+.scroll-nav a:hover {
+  color: #ffae00;
+  transform: scale(1.1);
+}
+
+.form-check-input:checked {
+  background-color: #ffb71b;
+  border-color: #ffb71b;
+}
+
+.btn-black:hover {
+  background-color: #ffffff; /* 更改背景顏色 */
+}
+
+.btn-black {
+  transition: background-color 0.3s ease;
+  background-color: #000000;
+  color: #ffb71b;
+  border: 2px solid #000; /* 添加黑色邊框 */
+  transition: border-color 0.3s ease; /* 添加過渡效果 */
+}
+
+.btn-black:hover {
+  border-color: #ffb71b; /* 滑鼠懸停時更改邊框顏色 */
+  color: #ffb71b !important;
+}
+
+.form-control {
+  border: 2px solid #ffb71b;
+}
+
+.table-bordered tr td {
+  border: 2px solid #ffb71b;
+  padding: 0.5rem 1rem;
+}
+
+.border-orange {
+  border: 2px solid #ffb71b;
+}
+
+.border-end-orange {
+  border-bottom: 2px solid #ffb71b;
+}
+
+.judge {
+  text-align: center;
+}
+.judge img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.judge h3 {
+  margin-top: 10px;
+}
+
+/* upload page */
+/* 上傳鈕客製化 */
+
+#formFileLg {
+  display: none; /* Hide the default file input */
+}
+
+.orange-file-upload {
+  border: 2px solid #ffb71b; /* Orange border */
+  background-color: #ffb71b; /* Orange background color */
+  color: #fff; /* White text color */
+  padding: 15px 30px; /* Adjust padding as needed */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.orange-file-upload:hover {
+  background-color: #ffae00; /* Lighter shade of orange on hover */
+}
+
+/* .upload-file-container-w{
+  width: 1150px;
+} */
+
+@media (max-width: 1150px) {
+  .upload-w {
+    width: 90%;
+  }
+}
+
+.btn-outline-orange {
+  outline: #000000 1px solid;
+}
+
+.btn-upload-w {
+  width: 220px;
+}
+
+@media (max-width: 767px) {
+  .btn-upload-w {
+    width: 90%;
+  }
+}
+
+.ab-all-input-container {
+  max-width: 700px;
+}
+
+.speaker-photo-w {
+  max-width: 230px;
+}
+
+.register-btn {
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: rgb(0, 0, 0) !important; /* 悬停时的背景颜色 */
+  color: #ffffff !important;
+  transform: scale(1.1);
+}
+
+.ansys-icon-footer img {
+  width: 170px;
+}
+
+@media (max-width: 767px) {
+  .ansys-icon-footer img {
+    width: 110px;
+  }
+}
+
+.scroll-top-icon img {
+  width: 50px;
+}
+.scroll-top-icon :hover {
+  transform: scale(1.1);
+}
+
+/* table垂直合併 */
+.table-container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.table-detail-p-container{
+  width: 150px;
+}
+
+.table-detail-container{
+  width: 400px;
+}
+
+
+.banner {
+ 
+  
+}
+
+
+/* 2024 copy */
+.sc_agenda .tit {
+  background: #ffb71b;
+  color: #000;
+  text-align: center;
+  padding: .2em 0;
+  border: #fff 1px solid;
+  border-radius: 20em;
+  /* margin-bottom: 1rem; */
+}
+
+.sc_agenda i {
+  color: #000000;
+  /* background: rgba(0, 0, 0, .7); */
+  padding: .2rem 1rem;
+  /* border-radius: 2rem; */
+  display: inline-block;
+  /* font-style: italic; */
+  /* margin: 0 0 .5rem -0.5rem; */
+}
+
+.sc_agenda p {
+  /* border-left: #e0e0e0 2px solid;
+  padding-left: .5em; */
+}
+
+.text-black-50 {
+  color: rgba(0, 0, 0, .5) !important;
+}
+
+
+.sc_agenda .spk .spk_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sc_agenda .spk .spk_inner .spk_img {
+  max-width: 125px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, .3);
+  transition: all .3s;
+}
+
+.sc_agenda .spk .spk_inner .spk_img:hover{
+  transform: scale(1.1) ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+
+ 
+}
+
+.sc_agenda .row div {
+  margin: 0.5rem 0;
+}
+
+.sc_agenda .row {
+  margin-bottom: 1.5rem ;
+}
+
+.sc_agenda .room{
+  margin-bottom: 0.5rem;
+}
+
+
+.sc_sponsors {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.sc_sponsors p {
+  position: relative;
+  display: inline-block;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 768px) {
+  .sc_intro .h5_topic {
+      line-height: 1.5;
+      font-size: 1.15rem;
+      font-weight: 700;
+  }
+}
+
+.banner {
+  height: auto;
+}
+
+.essay-banner img.position-absolute {
+
+  max-width:450px; /* 调整此值以更改按钮的大小 */
+}
+
+/* 添加悬停效果的CSS */
+.essay-btn:hover {
+  opacity: 0.9; /* 改变透明度 */
+  transition: opacity 0.3s ease; /* 添加过渡效果 */
+  transform: scale(1.1);
+
+  filter: brightness(1.2); /* 亮度增加效果 */
+
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+  .essay-banner img.position-absolute {
+   
+    max-width:300px; /* 调整此值以更改按钮的大小 */
+  }
+}
+
+/* 100 - 超细（Ultra Light）。
+200 - 细（Light）。
+300 - 半细（Book）。
+400 - 常规（Normal）。
+500 - 中等（Medium）。
+600 - 半粗（Semi Bold）。
+700 - 粗体（Bold）。
+800 - 超粗（Extra Bold）。
+900 - 极粗（Black）。 */
+
+.fw-bolder-700{
+  font-weight: 700;
+}
+
+.text-black-50{
+  font-weight: 600;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
